@@ -1,4 +1,13 @@
 .judul {
-    font-family: 'poppins', serif;
-    padding: 200px 0;
-  }
+  font-family: 'poppins', serif;
+  padding: 200px 0;
+}
+
+.judul1 {
+  padding: 1000px 0;
+  margin-bottom: -900px;
+}
+
+.img-thumbnail {
+  width: 369px;
+}
