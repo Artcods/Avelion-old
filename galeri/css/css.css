@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.kotak {
+    text-align: center;
+    margin-top: 360px;
+}
+
+.tombol {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0, 8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.tombol1, .tombol2 {
+    color: #3498db;
+}
+
+.tombol3, .tombol4 {
+    color: #fff;
+}
+
+.tombol1:hover, .tombol2:hover {
+    color: #fff;
+}
+.tombol3:hover, .tombol4:hover {
+    color: #3498db;
+}
+.tombol1:hover, .tombol2 {
+    color: #fff;
+}
+.tombol3:hover, .tombol4:hover {
+    color: #3498db;
+}
+
+.tombol::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+.tombol1::before, .tombol3::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.tombol2::before, .tombol4::before {
+    top: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.tombol3::before, .tombol3::before {
+height: 180%;
+}
+.tombol1:hover::before, .tombol2:hover::before {
+    height: 180%;
+}
+.tombol3:hover::before, .tombol4:hover::before {
+    height: 0%;
+}
