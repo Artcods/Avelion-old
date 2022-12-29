@@ -223,6 +223,9 @@ body {
   }
 }
 
+
+/* tombol Sytle */
+
 .kotak {
   text-align: center;
   margin-top: 360px;
@@ -290,3 +293,4 @@ height: 180%;
 .tombol3:hover::before, .tombol4:hover::before {
   height: 0%;
 }
+
