@@ -245,24 +245,33 @@ body {
   overflow: hidden;
 }
 
-.tombol1, .tombol2 {
+.tombol1,
+.tombol2 {
   color: #3498db;
 }
 
-.tombol3, .tombol4 {
+.tombol3,
+.tombol4 {
   color: #fff;
 }
 
-.tombol1:hover, .tombol2:hover {
+.tombol1:hover,
+.tombol2:hover {
   color: #fff;
 }
-.tombol3:hover, .tombol4:hover {
+
+.tombol3:hover,
+.tombol4:hover {
   color: #3498db;
 }
-.tombol1:hover, .tombol2 {
+
+.tombol1:hover,
+.tombol2 {
   color: #fff;
 }
-.tombol3:hover, .tombol4:hover {
+
+.tombol3:hover,
+.tombol4:hover {
   color: #3498db;
 }
 
@@ -276,22 +285,34 @@ body {
   z-index: -1;
   transition: 0.8s;
 }
-.tombol1::before, .tombol3::before {
+
+.tombol1::before,
+.tombol3::before {
   top: 0;
   border-radius: 0 0 50% 50%;
 }
-.tombol2::before, .tombol4::before {
+
+.tombol2::before,
+.tombol4::before {
   top: 0;
   border-radius: 50% 50% 0 0;
 }
 
-.tombol3::before, .tombol3::before {
-height: 180%;
-}
-.tombol1:hover::before, .tombol2:hover::before {
+.tombol3::before,
+.tombol3::before {
   height: 180%;
 }
-.tombol3:hover::before, .tombol4:hover::before {
+
+.tombol1:hover::before,
+.tombol2:hover::before {
+  height: 180%;
+}
+
+.tombol3:hover::before,
+.tombol4:hover::before {
   height: 0%;
 }
+
+
+/* Pop-Up Image Slider */
 
